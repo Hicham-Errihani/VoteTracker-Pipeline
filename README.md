@@ -74,3 +74,6 @@ Ce projet vise à concevoir et déployer un pipeline de données temps réel pou
 <p align="center">
   <img src="A_flowchart-style_digital_illustration_showcases_a.png" alt="VoteTracker Pipeline Architecture" width="800"/>
 </p>
+<p align="center">
+  <img src="Architecture.png" alt="Architecture VoteTracker Pipeline" width="800" />
+</p>
