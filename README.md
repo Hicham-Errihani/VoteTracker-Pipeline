@@ -35,3 +35,19 @@ Elle repose sur une architecture distribuée combinant les meilleurs outils du m
 - Maîtrise des technologies Big Data temps réel
 - Déploiement modulaire via Docker
 - Traitement, stockage et visualisation de flux en direct
+
+
+## 🎯 Objectifs du projet
+
+Ce projet vise à concevoir et déployer un pipeline de données temps réel pour simuler des votes électroniques, avec les objectifs suivants :
+
+- ⚙️ **Automatiser** la génération continue de votes toutes les 2 secondes
+- 🧑‍💻 **Permettre la saisie manuelle** via une interface web simple et intuitive (Flask)
+- ⚡ **Traiter les flux de données en direct** grâce à Apache Spark Structured Streaming
+- 📦 **Indexer et stocker les résultats** dans Elasticsearch pour une consultation rapide
+- 📊 **Visualiser les données en temps réel** via des dashboards interactifs Kibana
+- 📤 **Exporter les données agrégées** vers Power BI pour une analyse complémentaire
+
+---
+
+💡 Ces objectifs reflètent les enjeux concrets du Big Data temps réel et démontrent l'intégration de technologies modernes de streaming dans une solution prête à l'emploi.
