@@ -101,3 +101,22 @@ Le tableau de bord Kibana permet une visualisation en temps réel des données d
 ---
 
 💡 Ces visualisations permettent un suivi instantané des résultats et facilitent l’analyse de tendances électorales.
+
+## 📚 Références techniques essentielles
+
+Ces ressources ont guidé la conception, l’implémentation et la compréhension technique du pipeline VoteTracker. Elles couvrent les principaux composants de l’architecture distribuée :
+
+- 🔗 [**Apache Kafka**](https://kafka.apache.org/documentation/)  
+  Documentation officielle pour la configuration des brokers, topics, producteurs et consommateurs.
+
+- 🔗 [**Apache Spark Structured Streaming**](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)  
+  Guide complet pour le traitement de flux structurés, intégration avec Kafka, et gestion des états.
+
+- 🔗 [**Elasticsearch & Kibana**](https://www.elastic.co/guide/)  
+  Référence complète pour l’indexation de données, la création de dashboards temps réel, et la visualisation.
+
+- 🔗 [**Docker & Docker Compose**](https://docs.docker.com/)  
+  Documentation pour la conteneurisation, le déploiement multi-services et la gestion des environnements isolés.
+
+- 🔗 [**Flask (Python)**](https://flask.palletsprojects.com/)  
+  Framework minimaliste pour le développement rapide d’interfaces web en Python, utilisé pour le front-end de saisie.
