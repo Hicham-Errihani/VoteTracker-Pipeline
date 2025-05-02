@@ -51,3 +51,20 @@ Ce projet vise à concevoir et déployer un pipeline de données temps réel pou
 ---
 
 💡 Ces objectifs reflètent les enjeux concrets du Big Data temps réel et démontrent l'intégration de technologies modernes de streaming dans une solution prête à l'emploi.
+
+
+## 🧰 Stack Technique
+
+| 🧩 Technologie          | 🔍 Rôle dans le pipeline                                             |
+|------------------------|----------------------------------------------------------------------|
+| **Python 3.10**        | Génération automatique de votes, export CSV, et interface Flask      |
+| **Apache Kafka 3.6**   | Transmission distribuée des flux de votes via topic Kafka            |
+| **Apache Spark 3.5.1** | Traitement temps réel structuré des données entrantes                |
+| **Elasticsearch 8.11.2** | Indexation rapide et stockage structuré des résultats de vote     |
+| **Kibana**             | Visualisation dynamique et interactive des résultats en temps réel   |
+| **Docker + Compose**   | Déploiement conteneurisé et orchestration multi-services             |
+| **Power BI**           | Analyse complémentaire des données exportées (CSV)                   |
+
+---
+
+💡 Chaque composant a été sélectionné pour sa robustesse, son intégration naturelle dans l'écosystème Big Data, et sa pertinence pour une solution temps réel évolutive.
