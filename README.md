@@ -70,10 +70,6 @@ Ce projet vise à concevoir et déployer un pipeline de données temps réel pou
 💡 Chaque composant a été sélectionné pour sa robustesse, son intégration naturelle dans l'écosystème Big Data, et sa pertinence pour une solution temps réel évolutive.
 
 ## 🧱 Architecture (visual schema)
-
-<p align="center">
-  <img src="A_flowchart-style_digital_illustration_showcases_a.png" alt="VoteTracker Pipeline Architecture" width="800"/>
-</p>
 <p align="center">
   <img src="Architecture.png" alt="Architecture VoteTracker Pipeline" width="800" />
 </p>
