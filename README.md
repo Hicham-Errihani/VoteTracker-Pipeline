@@ -120,3 +120,17 @@ Ces ressources ont guidé la conception, l’implémentation et la compréhensio
 
 - 🔗 [**Flask (Python)**](https://flask.palletsprojects.com/)  
   Framework minimaliste pour le développement rapide d’interfaces web en Python, utilisé pour le front-end de saisie.
+
+---
+
+## 📬 Contact & Remerciements
+
+Ce projet a été développé dans un contexte professionnel pour démontrer la maîtrise des technologies Big Data temps réel, de l’architecture distribuée et de la visualisation de données.
+
+- 👨‍💻 **Auteur** : [Hicham Errihani](https://github.com/Hicham-Errihani)
+- 📧 **Email** : hichamerrihani.pro@gmail.com
+- 🗓️ **Année de réalisation** : 2025
+
+---
+
+> *VoteTracker-Pipeline illustre la capacité à concevoir, implémenter et déployer un pipeline Big Data moderne, modulaire et exploitable en production.*
