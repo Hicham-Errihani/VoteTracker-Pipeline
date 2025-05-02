@@ -87,3 +87,17 @@ Cette solution Big Data temps réel est composée de plusieurs modules interconn
 ---
 
 💡 Chaque module a été développé dans un souci de modularité, scalabilité et clarté pédagogique.
+
+
+## 📊 Dashboard Kibana – Aperçu des résultats
+
+Le tableau de bord Kibana permet une visualisation en temps réel des données de vote traitées. Il inclut plusieurs vues analytiques interactives :
+
+- 📈 **Histogramme des votes** : Distribution des voix par candidat, mise à jour en temps réel  
+- 🏷️ **Répartition par parti politique** : Visualisation des pourcentages et tendances par parti  
+- 📆 **Évolution temporelle** : Courbe montrant la progression des votes dans le temps  
+- 👤 **Vue détaillée par candidat** : Fiches analytiques individuelles pour chaque candidat
+
+---
+
+💡 Ces visualisations permettent un suivi instantané des résultats et facilitent l’analyse de tendances électorales.
