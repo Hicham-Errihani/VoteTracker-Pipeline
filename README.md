@@ -73,3 +73,17 @@ Ce projet vise à concevoir et déployer un pipeline de données temps réel pou
 <p align="center">
   <img src="Architecture.png" alt="Architecture VoteTracker Pipeline" width="800" />
 </p>
+
+## ⚙️ Implémentation technique
+
+Cette solution Big Data temps réel est composée de plusieurs modules interconnectés, chacun jouant un rôle clé dans le pipeline :
+
+- 🟢 **Producer** : Simule des votes sous forme de messages JSON et les publie toutes les 2 secondes dans un topic Kafka
+- 🖥️ **Web App (Flask)** : Permet la saisie manuelle de votes via une interface web simple (formulaire HTML)
+- ⚡ **Spark Structured Streaming** : Consomme les messages Kafka, les transforme en DataFrames structurés, puis les envoie vers Elasticsearch
+- 📊 **Kibana** : Affiche les résultats des votes en temps réel, par candidat, parti et sur une échelle temporelle
+- 📤 **Export CSV** : Généré avec `pandas` pour permettre une analyse approfondie via Power BI
+
+---
+
+💡 Chaque module a été développé dans un souci de modularité, scalabilité et clarté pédagogique.
